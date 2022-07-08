@@ -14,7 +14,7 @@ public class StepDefinition extends BaseTestClass {
     @Test(priority = 2, description = "Login ke Axis Net")
     public void login() {
         logger = reports.startTest("Testing login axis net");
-        loginPage.loginAxisNet("083114944146", "MANTAP");
+        loginPage.loginAxisNet("083114944147", "MANTAP");
         assertEquals(loginPage.getTextHome(), "Hai,");
     }
 }
